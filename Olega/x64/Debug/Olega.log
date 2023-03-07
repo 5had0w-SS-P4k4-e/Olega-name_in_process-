@@ -1,0 +1,7 @@
+﻿  Olega.cpp
+C:\Program Files\Git\Olega-name_in_process-\Olega\Olega.cpp(19,31): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Program Files\Git\Olega-name_in_process-\Olega\Olega.cpp(28,27): warning C4244: +=: преобразование "float" в "int", возможна потеря данных
+C:\Program Files\Git\Olega-name_in_process-\Olega\Olega.cpp(31,12): warning C4244: return: преобразование "int" в "float", возможна потеря данных
+C:\Program Files\Git\Olega-name_in_process-\Olega\Olega.cpp(48,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Program Files\Git\Olega-name_in_process-\Olega\Olega.cpp(55,12): warning C4244: return: преобразование "float" в "int", возможна потеря данных
+  Olega.vcxproj -> C:\Program Files\Git\Olega-name_in_process-\Olega\x64\Debug\Olega.exe
