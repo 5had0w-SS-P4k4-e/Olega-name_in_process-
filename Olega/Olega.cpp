@@ -7,11 +7,11 @@
 #include <conio.h> 
 #include <cmath> 
 using namespace std;
-#define k 3
+#define size 3
 #define max_num 100 
 #define min_num 50
 
-void FormMatr(float Matrix[k][k], int nn, int mm)
+void FormMatr(float Matrix[size][size], int nn, int mm)
 {
     int i, j;
     for (i = 0; i < nn; i++) {
@@ -20,7 +20,7 @@ void FormMatr(float Matrix[k][k], int nn, int mm)
     }
 }
 
-float SumMatr(float Matrix[k][k], int nn, int mm)
+float SumMatr(float Matrix[size][size], int nn, int mm)
 {
     int i, j, sum = 0;
     for (j = 0; j < mm; j++) {
@@ -32,7 +32,7 @@ float SumMatr(float Matrix[k][k], int nn, int mm)
 }
 
 
-void PrintMatr(float Matrix[k][k], int nn, int mm)
+void PrintMatr(float Matrix[size][size], int nn, int mm)
 {
     int i, j;
     for (i = 0; i < nn; i++) {
@@ -44,13 +44,13 @@ void PrintMatr(float Matrix[k][k], int nn, int mm)
 
 int main()
 {
-    float B[k][k];
+    float B[size][size];
     srand(time(NULL));
-    FormMatr(B, k, k);
-    PrintMatr(B, k, k);
+    FormMatr(B, size, size);
+    PrintMatr(B, size, size);
     cout << "\t" << endl;
     float Sum;
-    Sum = SumMatr(B, k, k);
+    Sum = SumMatr(B, size, size);
     cout << "sum of hier triangle =  " << Sum << endl;
     return Sum;
 }
