@@ -10,7 +10,7 @@ using namespace std;
 #define k 3
 #define maxm 100 
 #define minm 50
-
+//ПОМЕНЯЙ НАЗВАНИЯ ПЕРЕМЕННЫХ!!!
 void FormMatr (float AA[k][k], int nn, int mm) 
 { int i, j; 
 for (i=0; i<nn; i++){ 
